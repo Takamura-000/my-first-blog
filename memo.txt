@@ -1,0 +1,8 @@
+92  python3 -m venv myvenv
+   93  source myvenv/bin/activate
+   94  python manage.py runserver
+   95  python -m pip install --upgrade pip
+   96  pip install -r requirements.txt
+   97  python manage.py runserver
+   98  python manage.py migrate
+   99  python manage.py runserver
